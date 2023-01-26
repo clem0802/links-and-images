@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/pages.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap" 
+          rel="stylesheet"
+    >
+    <title>Page de contact</title>
+    <link rel="shortcut icon" 
+          href="../../images/contact.jpg" 
+          type="image/jpg"
+    >
+</head>
+<body>
+    <div class="page_div" id="contact">
+        <div class="back_btn_div">
+            <a href="../../index.html" class="back_btn">back to homepage</a>
+            <a href="./fr.html" class="back_btn">page d'accueil</a>
+        </div>
+        <h1>Page de contact</h1>
+        <img src="../../images/img/contact.jpg" alt="contact"><br>
+        <h2>Contacter Clémence</h2>
+        <form action="https://public.herotofu.com/v1/d5377820-0cf0-11ed-9bdb-53c785fa3343" 
+              method="post" 
+              class="contact"
+        >
+            <div>
+                <label for="fullname">Nom complet</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Votre nom complet">
+            </div>
+            <div>
+                <label for="tel">Téléphone</label>
+                <input type="tel" id="tel" name="tel" placeholder="Votre téléphone">
+            </div>
+            <div>
+                <label for="email">Courriel</label>
+                <input type="email" id="email" name="email" placeholder="Votre courriel">
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message pour moi"></textarea>
+            </div>
+            <button>Envoyer</button>
+        </form>
+    </div>
+</body>
+</html>

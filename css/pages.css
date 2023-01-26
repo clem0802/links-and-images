@@ -1,0 +1,215 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: face;
+    src: url(fonts/Roboto-Font-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: face;
+    src: url(fonts/Roboto-Font-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}
+
+.page_div {
+    background-color: rgb(251, 244, 217);
+    width: 45%;
+    min-height: 100vh;
+    text-align: center;
+    padding: 50px;
+    border-radius: 16px;
+}
+
+.back_btn_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.back_btn {
+    background-color: lightgoldenrodyellow;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    border: 2px solid rgb(123, 142, 123);
+    border-radius: 12px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #8b6e0e;
+    width: 200px;
+    transition: 0.7s ease;
+}
+.back_btn:hover {
+    color: rgb(238, 232, 181);
+    background-color: rgb(227, 227, 203);
+    background-color: rgb(47, 45, 45);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+/* ----------------------------- */
+h1, h2 {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    padding: 25px;
+}
+
+ol, ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.list_card {
+    background-color: rgb(234, 234, 216);
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_card:hover {
+    box-shadow: 0 0 16px rgba(12, 12, 12, 0.2); 
+    font-weight: bold;
+    font-size: 22px;
+}
+
+li {
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+}
+
+img {
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgb(186, 185, 185);
+    -moz-box-shadow: 10px 10px 5px rgb(186, 185, 185);
+    -webkit-box-shadow: 10px 10px 5px rgb(186, 185, 185);
+    -khtml-box-shadow: 10px 10px 5px rgb(186, 185, 185);
+}
+
+img:hover {
+    box-shadow: 0 0 16px rgba(33,33,33,.2); 
+}
+
+.movie_title {
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.movie_card {
+    background-color: #dfd2bbbd;
+    width: 260px;
+    height: 390px;
+    border-radius: 12px;
+    padding: 10px 15px;
+    margin: 15px;
+}
+
+.movie_card:hover {
+    box-shadow: 0 0 16px rgba(40, 19, 19, 0.27); 
+    color: #28253d;
+    font-size: 22px;
+    font-style: italic;
+}
+
+/* ----------------------------- */
+/* Contact Page */
+#contact form {
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    color: #2C3E50;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    min-width: 350px;
+}
+
+#contact form label {
+    font-size: 20px;
+}
+
+#contact form input, #contact form textarea {
+    margin: 10px auto;
+    border: 1px solid rgb(220, 220, 183);
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#contact form input {
+    height: 40px;
+}
+
+#contact form ::placeholder, #contact textarea ::placeholder {
+    text-align: center;
+    font-size: 18px;
+    color:rgb(191, 189, 189);
+}
+
+#contact form button {
+    background-color: #18BC9C;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(245, 239, 188);
+    font-size: 20px;
+    width: 120px;
+    padding: 15px;
+    margin: 15px auto 0 auto;
+    border-radius: 10px;
+    border: none;
+    transition: 0.7s ease-out 80ms;
+}
+#contact form button:hover {
+    color: #8b6e0e;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration-line: underline;
+}
+

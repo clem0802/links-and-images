@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/pages.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap" 
+          rel="stylesheet"
+    >
+    <title>聯絡頁</title>
+    <link rel="shortcut icon" 
+          href="../../images/contact.jpg" 
+          type="image/jpg"
+    >
+</head>
+<body>
+    <div class="page_div" id="contact">
+        <div class="back_btn_div">
+            <a href="../../index.html" class="back_btn">back to homepage</a>
+            <a href="./tw.html" class="back_btn">回繁體中文主頁</a>
+        </div>
+        <h1>聯絡頁</h1>
+        <img src="../../images/img/contact.jpg" alt="聯絡"><br>
+        <h2>聯絡 Clémence</h2>
+        <form action="https://public.herotofu.com/v1/d5377820-0cf0-11ed-9bdb-53c785fa3343" 
+              method="post" 
+              class="contact"
+        >
+            <div>
+                <label for="fullname">全名</label>
+                <input type="text" id="fullname" name="fullname" placeholder="您的全名">
+            </div>
+            <div>
+                <label for="tel">電話</label>
+                <input type="tel" id="tel" name="tel" placeholder="您的電話">
+            </div>
+            <div>
+                <label for="email">電郵</label>
+                <input type="email" id="email" name="email" placeholder="您的電郵">
+            </div>
+            <div>
+                <label for="message">信息</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="您想跟我分享的信息"></textarea>
+            </div>
+            <button>送出</button>
+        </form>
+    </div>
+</body>
+</html>
