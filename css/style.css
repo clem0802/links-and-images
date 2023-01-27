@@ -420,7 +420,7 @@ i:hover {
     color: aqua;
 }
 
-.copyright {
+#copyright {
     font-family: Roboto, sans-serif;
     color: #E5E7EB;
     font-size: 12px;
